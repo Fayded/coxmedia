@@ -1,0 +1,14 @@
+ 
+   div#modal-box {
+     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=-0.3639702342662026, M21=-0.3639702342662026, M22=1, SizingMethod='auto expand')";
+     /* IE6 and 7 */ 
+     filter: progid:DXImageTransform.Microsoft.Matrix(
+              M11=1,
+              M12=-0.3639702342662026,
+              M21=-0.3639702342662026,
+              M22=1,
+              SizingMethod='auto expand');
+
+     margin-left: -40px; 
+     margin-top: -121px;
+ }

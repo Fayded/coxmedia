@@ -1,0 +1,345 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Cox Media Microsite</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/styles.css">
+      <!--[if lt IE 9]>
+        <link rel="stylesheet" href="styles/ie.css">
+      <![endif]-->
+
+  <style>
+    #mask {
+      position: absolute;
+      z-index: 6;
+      background: #000;
+      opacity: 0.65;
+      display: none;
+    }
+      
+    #boxes .window {
+      position: fixed;
+      width: 638px;
+      height: 200px;
+      display: none;
+      z-index: 7;
+    }
+
+    #boxes #dialog {
+      width: 638px; 
+      height: 203px;
+    }
+
+    #boxes-vid .window {
+      position: fixed;
+      width: 640px;
+      height: 360px;
+      display: none;
+      z-index: 8;
+    }
+
+    #boxes-vid #dialog {
+      width: 640px; 
+      height: 360px;
+    }
+</style>
+<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+if (typeof jQuery == 'undefined') {
+    document.write(unescape("%3Cscript src='js/jquery_1.8.3.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+<script src="//j.maxmind.com/js/apis/geoip2/v2.0/geoip2.js" type="text/javascript"></script>
+<script src="js/ip-detection.js"></script>
+
+</head>
+<body>
+   <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="js/es5-shim.js"></script>
+      <script src="js/json3.min.js"></script>
+    <![endif]-->
+  <div id="container">
+    <!--<h2 data-stellar-offset-parent="true">-->  
+    <div class="clouds" data-stellar-ratio="0.5"></div>
+    <div class="backgrounds" data-stellar-ratio="1.15625">
+      <div class="arid-bg" data-stellar-ratio="1.15625"></div>
+      <div class="plain-bg" data-stellar-ratio="1.15625"></div>
+      <div class="temperate-bg" data-stellar-ratio="1.15625"></div>
+      <div class="temperate-tropical-bg" data-stellar-ratio="1.15625"></div>
+      <div class="tropical-bg" data-stellar-ratio="1.15625"></div>
+    </div>
+    <div class="transitions" data-stellar-ratio="1.15625">
+      <div class="first-trans" data-stellar-ratio="1.15625"></div>
+      <div class="second-trans" data-stellar-ratio="1.15625"></div>
+      <div class="third-trans" data-stellar-ratio="1.15625"></div>
+      <div class="fourth-trans" data-stellar-ratio="1.15625"></div>
+    </div>
+    <div class="background-buildings">
+      <div class="b-10 bg-building" data-stellar-ratio="0.725"></div>
+      <div class="mountain bg-building" data-stellar-ratio="0.725"></div>
+      <div class="b-16 bg-building" data-stellar-ratio="0.725"></div>
+      <div class="b-17 bg-building" data-stellar-ratio="0.725"></div>
+      <div class="b-21 bg-building" data-stellar-ratio="0.725"></div>
+       <div class="b-22 bg-building" data-stellar-ratio="1"></div>
+       <div class="b-20" data-stellar-ratio="1"></div>  
+      <div class="b-26 bg-building" data-stellar-ratio="0.725"></div>
+      <div class="b-29 bg-building" data-stellar-ratio="0.85"></div>
+    </div>
+    <div class="section arid">  
+      <span class="midground-bg-1" data-stellar-ratio="1"></span>
+      <div class="cactus" data-stellar-ratio="1"></div>
+      <div class="b-2" data-stellar-ratio="1"></div>
+      <div class="b-3" data-stellar-ratio="1"></div>
+      <div class="b-4" data-stellar-ratio="1"></div>
+      <div class="b-5" data-stellar-ratio="1"></div>
+      <div class="b-6" data-stellar-ratio="1"></div>
+      <div class="b-7" data-stellar-ratio="1"></div>
+      <div class="b-8" data-stellar-ratio="1"></div>
+      <div class="b-12 hideDef" data-stellar-ratio="1"></div>
+      <div class="b-14 hideDef" data-stellar-ratio="1"></div>
+      <div class="b-12-arid hideDef" data-stellar-ratio="1"></div>
+      <div class="b-14-arid hideDef" data-stellar-ratio="1"></div>
+      <!--<div class="b-45" data-stellar-ratio="1"></div>-->
+      <!--<div class="b-46" data-stellar-ratio="1"></div>-->
+      <!--<div class="b-48" data-stellar-ratio="1"></div>-->
+      <div class="computer-guy" data-stellar-ratio="1.8"></div>
+      <div class="car" data-stellar-ratio="2"></div>
+      <div class="t-1" data-stellar-ratio="1.15625"></div>
+    </div>
+    <div class="section plain">
+      <span class="midground-bg-2" data-stellar-ratio="1"></span>
+      <div class="b-9" data-stellar-ratio="1"></div>
+      <div class="b-11" data-stellar-ratio="1"></div>
+      <div class="b-13" data-stellar-ratio="1"></div>
+      <div class="b-15" data-stellar-ratio="1"></div>
+      <!--<div class="b-47" data-stellar-ratio="1"></div>-->
+      <!--<div class="b-49" data-stellar-ratio="1"></div>-->
+      <div class="bike" data-stellar-ratio="1.8"></div>
+    </div>
+    <div class="section temperate">
+      <span class="midground-bg-3" data-stellar-ratio="1"></span>
+      <div class="b-25" data-stellar-ratio="1"></div>    
+      <div class="b-18" data-stellar-ratio="1"></div>
+      <div class="b-19" data-stellar-ratio="1"></div>
+      <div class="b-23 hideDef" data-stellar-ratio="1"></div>
+      <div class="b-24 hideDef" data-stellar-ratio="1"></div>
+      <div class="b-23-temperate hideDef" data-stellar-ratio="1"></div>
+      <div class="b-24-temperate hideDef" data-stellar-ratio="1"></div>
+      <!--<div class="b-50" data-stellar-ratio="1"></div>-->
+      <!--<div class="b-51" data-stellar-ratio="1"></div>-->
+      <div class="t-2" data-stellar-ratio="1.15625"></div>
+      <div class="t-3" data-stellar-ratio="1.15625"></div>
+      <div class="girl-dog" data-stellar-ratio="1.3"></div>
+      <div class="family" data-stellar-ratio="1.15625"></div>
+    </div>
+    <div class="section tropical" data-stellar-offset-parent="true">
+      <div class="b-33" data-stellar-ratio="1"></div>
+      <span class="midground-bg-4" data-stellar-ratio="1"></span>
+      <div class="b-28" data-stellar-ratio="1"></div>
+      <!--<div class="b-27" data-stellar-ratio="1"></div>-->
+      <div class="b-30" data-stellar-ratio="1"></div>
+      <div class="b-31 hideDef" data-stellar-ratio="1"></div>
+      <div class="b-31-tropical hideDef" data-stellar-ratio="1"></div>
+      <div class="b-32" data-stellar-ratio="1"></div>
+      <div class="b-34" data-stellar-ratio="1"></div>
+      <!--<div class="b-53" data-stellar-ratio="1"></div>-->
+      <div class="b-54" data-stellar-ratio="1"></div>
+      <div class="b-55 hideDef" data-stellar-ratio="1"></div>
+      <div class="b-55-tropical hideDef" data-stellar-ratio="1"></div>
+      <div class="camera-dad" data-stellar-ratio="1.3"></div>
+      <div class="camera-fam" data-stellar-ratio="1.3"></div>
+      <div class="palm" data-stellar-ratio="1.15625"></div>
+    </div>
+    <div class="section generic" data-stellar-offset-parent="true">
+      <div class="label-1">
+        <a href="#dialog" name="modal" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out&nbsp;</em></span><span class="right-banner"><i>fill&nbsp;seats.</i></span></span></a>
+      </div>
+      <div class="label-2 hideDef" >.
+        <a href="furniture.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Change&nbsp;Perceptions.</i></span></span></a>
+      </div>
+      <div class="label-3" >
+        <a href="#dialog" name="modal" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Drive&nbsp;Traffic. </i></span></span></a>
+      </div>
+      <div class="label-4" >
+        <a href="#dialog" name="modal" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Avoid&nbsp;Obstacles.</i></span></span></a>
+      </div>
+      <div class="label-5" >
+        <a href="#dialog" name="modal" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Attract&nbsp;New&nbsp;Students.</i></span></span></a>
+      </div>
+      <div class="label-6" >
+        <a href="#dialog" name="modal" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Show&nbsp;Property.</i></span></span></a>
+      </div>
+      <div class="label-7 hideDef" >
+        <a href="dentist.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Uncomplicate&nbsp;Services.</i></span></span></a>
+      </div>
+      <div class="label-8 hideDef" >
+        <a href="#dialog" name="modal" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Look&nbsp;Amazing.</i></span></span></a>
+      </div>
+      <div class="label-9" >
+        <a href="#dialog" name="modal" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Build&nbsp;Business.</i></span></span></a>
+      </div>
+      <div class="label-10 hideDef" >
+        <a href="dentist.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Uncomplicate&nbsp;Services.</i></span></span></a>
+      </div>
+      <div class="label-11 hideDef" >
+        <a href="restaurant.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Serve&nbsp;Your&nbsp;Target.</i></span></span></a>
+      </div>
+       <div class="label-2-arid hideDef" >.
+        <a href="furniture.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Change&nbsp;Perceptions.</i></span></span></a>
+      </div>
+      <div class="label-4-arid hideDef" >
+        <a href="autoDealer.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Avoid&nbsp;Obstacles.</i></span></span></a>
+      </div>
+      <div class="label-4-plain hideDef">
+        <a href="autoDealer.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Avoid&nbsp;Obstacles.</i></span></span></a>
+      </div>
+      <div class="label-4-temperate hideDef" >
+        <a href="autoDealer.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Avoid&nbsp;Obstacles.</i></span></span></a>
+      </div>
+      <div class="label-4-tropical hideDef" >
+        <a href="autoDealer.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Avoid&nbsp;Obstacles.</i></span></span></a>
+      </div>
+      <div class="label-8-temperate hideDef" >
+        <a href="#dialog" name="modal" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Look&nbsp;Amazing.</i></span></span></a>
+      </div>
+      <div class="label-11-tropical hideDef" >
+        <a href="restaurant.html" data-stellar-ratio="1"><span class="stand-out hide"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Serve&nbsp;Your&nbsp;Target.</i></span></span></a>
+      </div>
+      <div class="b-56-arid hideDef" data-stellar-ratio="1"></div>
+      <div class="b-56 hideDef" data-stellar-ratio="1"></div>
+      <div class="b-56-temperate hideDef" data-stellar-ratio="1"></div>
+      <div class="b-56-tropical hideDef" data-stellar-ratio="1"></div>
+    </div>
+    <div class="sign-arid hideDef" data-stellar-ratio="1">
+      <p class="city"></p>
+      <p class="city-limit">City Limit</p>
+      <p class="population"></p>
+    </div>
+    <div class="sign-plain hideDef" data-stellar-ratio="1">
+      <p class="city"></p>
+      <p class="city-limit">City Limit</p>
+      <p class="population"></p>
+    </div>
+    <div class="sign-temperate hideDef" data-stellar-ratio="1">
+      <p class="city"></p>
+      <p class="city-limit">City Limit</p>
+      <p class="population"></p>
+    </div>
+    <div class="sign-tropical hideDef" data-stellar-ratio="1">
+      <p class="city"></p>
+      <p class="city-limit">City Limit</p>
+      <p class="population"></p>
+    </div>
+
+    <div id="header">
+      <a href="/" class="logo">Cox Media</a>
+      <div class="social-nav">
+        <a href="https://www.facebook.com/pages/Cox-Media/196099393829215?fref=ts" target="_blank" class="facebook">Facebook</a>
+        <a href="http://www.linkedin.com/company/cox-media" target="_blank" class="linked-in">Linked In</a>
+        <a href="https://twitter.com/cox_media" target="_blank" class="twitter">Twitter</a>
+      </div>
+      <div class="header-nav">
+        <ul>
+          <li><a href="#dialog-vid" name="modal" class="watch">Watch Commercial.</a></li>
+          <li><a href="http://www.coxmedia.com/catlisting.jsp?navigation=25" target="_blank">Read Success Stories.</a></li>
+          <li><a href="contact.html">Contact Us.</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="intro-text">
+      <em>Stand Out.</em><i class="white">Click on a business to see how.</i>
+    </div>
+    <div id="boxes">
+      <div id="dialog" class="window">        
+        <div id="popup-box">
+          <span class="stand-out"><span class="left-banner"><em>Stand&nbsp;Out.&nbsp;</em></span><span class="right-banner"><i>Generate&nbsp;More&nbsp;Buzz</i></span></span>
+          <a href="#" class="close">Close <span> X</span></a>
+          <div id="modal-box">          
+            <div id="modal-content">
+              <p> Over eight months, the Cox.com campaign resulted in more than 500 click-thrus, at an average monthly rate of 0.12% with most months being above national average. <a href="#">Read Full Story</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="boxes-vid">
+        <div id="dialog-vid" class="window">        
+          <div id="interior-popup-box">
+            <div id="interior-intro-text">
+              <em>Stand Out.</em><i class="white">Watch The Video</i>
+            </div>
+            <a href="#" class="close">Close <span> X</span></a>
+            <div id="modal-box">          
+              <div id="modal-content">
+                <iframe width="640" height="360" src="" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+      <!-- Do not remove div#mask, because you'll need it to fill the whole screen -->  
+      <div id="mask"></div>
+  </div>
+</div>
+<div id="scroll-container">
+  <div id="scroll-arrows">
+    <a href="#previous" id="previous">Previous</a>
+    <a href="#next" id="next">Next</a>
+  </div>
+  <div id="scroll-cover">
+    <div id="scroll-slider"></div>
+  </div>
+  <div id="scroll-bg"></div>
+  <div id="scroll-nav">
+    <ul>
+      <li><a href="#Entertainment" class="green">Entertainment</a></li>
+      <li><a href="#Furniture" class="pink">Furniture</a></li>
+      <li><a href="#AutoServices" class="orange">Auto Services</a></li>
+      <li><a href="#Restaurant" class="green">Restaurant</a></li>
+      <li><a href="#Education" class="green">Education</a></li>
+      <li><a href="#Real Estate" class="pink">Real Estate</a></li>
+      <li><a href="#Health Care" class="orange">Health Care</a></li>
+      <li><a href="#Financial" class="blue">Retail</a></li>
+      <li><a href="#Construction" class="orange">Construction</a></li>
+      <li><a href="#Automotive" class="blue">Automotive</a></li>
+  </div>
+</div>
+<div id="footer">
+  <div class="footer-elements">
+      <p>2013 Cox Media, All rights reserved, Cox Media, LLC | 1001 Summit Blvd. Suite 1200, Atlanta, GA 30319 | 1-855-755-2691</p>
+      <p class="footer-nav"><a href="http://www.coxmedia.com" target="_blank">CoxMedia.com</a>&nbsp;|&nbsp;<a href="http://ww2.cox.com/aboutus/policies/your-privacy-rights.cox" target="_blank">Privacy Policy</a>&nbsp;|&nbsp;<a href="https://www.facebook.com/pages/Cox-Media/196099393829215?fref=ts" target="_blank">Like Us</a></p>
+  </div>
+</div>
+
+  <p class="hide">This website uses <a href="http://www.maxmind.com/en/javascript">GeoIP2 JavaScript from MaxMind</a>.</p>
+  <script src="js/stellar.js"></script>
+  <!--<script src="js/jquery.mousewheel.min.js"></script>-->
+  <!--<script src="js/waypoints.js"></script>-->
+  <!--<script src="js/plax.js"></script>-->
+  <script src="js/content.js"></script>
+  <script src="js/descriptions.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery.easing-1.3.min.js"></script>
+  
+  <script>
+    $(function(){
+      $.stellar({
+        horizontalScrolling: true
+      });
+    });
+  </script>
+  
+</body>
+</html>

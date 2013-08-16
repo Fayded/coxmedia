@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Cox Media Microsite</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <!--<script src="js/modernizr.js"></script>-->
+  <style>
+    #mask {
+      position: absolute;
+      z-index: 6;
+      background: #000;
+      opacity: 0.65;
+      display: none;
+    }
+      
+    #boxes .window {
+      position: fixed;
+      width: 440px;
+      height: 200px;
+      display: none;
+      z-index: 7;
+      padding: 20px;
+    }
+
+    #boxes #dialog {
+      width: 638px; 
+      height: 203px;
+    }
+
+    #boxes-vid .window {
+      position: fixed;
+      width: 640px;
+      height: 360px;
+      display: none;
+      z-index: 8;
+    }
+
+    #boxes-vid #dialog {
+      width: 640px; 
+      height: 360px;
+    }
+    </style>
+    <script type="text/JavaScript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-24821574-10']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/JavaScript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<!-- /Adding Google Analytics -->
+</head>
+
+<body class="contact">
+  <div class="int-container clouds-content">
+    <div id="interior-container">
+      <div id="header">
+        <a href="/" class="logo">Cox Media</a>
+        <div class="social-nav">
+          <a href="https://www.facebook.com/pages/Cox-Media/196099393829215?fref=ts" target="_blank" class="facebook">Facebook</a>
+          <a href="http://www.linkedin.com/company/cox-media" target="_blank" class="linked-in">Linked In</a>
+          <a href="https://twitter.com/cox_media" target="_blank" class="twitter">Twitter</a>
+        </div>
+        <div class="header-nav">
+          <ul>
+            <li><a href="#dialog-vid" name="modal" class="watch">Watch Commercial.</a></li>
+            <li><a href="http://www.coxmedia.com/catlisting.jsp?navigation=25" target="_blank">Read Success Stories.</a></li>
+            <li><a href="contact.html">Contact Us.</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="contact-form">
+          <div id="interior-intro-text">
+            <em>Stand Out.</em><i class="white">Contact Us.</i>
+          </div>
+          <!--<a href="#" class="close">Close <span> X</span></a>-->
+          <div id="modal-box-contact">          
+            <div id="contact-modal-content">
+              <div id="contactWrap">
+                <form>            
+                  <div id="requiredText">
+                    <p>
+                      * Required Fields 
+                    </p>
+                  </div>
+                  
+                  <div id="inputWrap">
+                      <div class="left">
+                        <div class="input-holder">
+                          <input type="text" id="txtFirst" name="fName" class="inputRequired textVal" placeholder="*First Name" />
+                          <div class="errorMsg"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="right">
+                          <div class="input-holder">
+                            <input type="text" id="txtLast" name="lName" class="inputRequired textVal" placeholder="*Last Name" />
+                            <div class="errorMsg"></div>
+                          </div>
+                      </div>
+                      
+                      <br class="clearBoth" />
+                      
+                      <div class="left">
+                        <div class="input-holder">
+                          <input type="text" id="txtEmail" name="email" class="inputRequired emailVal" placeholder="*Email" />
+                          <div class="errorMsg"></div>
+                        </div>
+                      </div>
+                      
+                      <div class="right">
+                          <div class="input-holder">
+                            <input type="text" id="txtPhone" name="phone" class="inputRequired numbersOnly phoneVal" placeholder="*Phone" maxlength="10" />
+                            <div class="errorMsg"></div>
+                          </div>
+                      </div>
+                      
+                      <br class="clearBoth" />
+                      
+                      <div class="left">
+                          <div class="input-holder">
+                            <input id="txtCompany" type="text" name="company" placeholder="Company" />
+                          </div>
+                      </div>
+                      <div class="right">
+                          <div class="input-holder">
+                            <input id="txtCompanyZip" type="text" name="companyZip" placeholder="Company Zip Code" />
+                          </div>
+                      </div>
+                      <br class="clearBoth" />
+                      
+                      <div class="left">
+                          <span class="input-holder">
+                            <label for="product">Product(s) of Interest:</label>
+                            <input type="checkbox" id="online-ads" name="Online Advertising On Cox.com" />
+                            <label for="online-ads"><span></span>Online Advertising On Cox.com</label>
+                            <input type="checkbox" id="ad-network" name="Cox Digital Ad Network" />
+                            <label for="ad-network"><span></span>Cox Digital Ad Network</label>
+                            <input type="checkbox" id="express-link" name="Express Link" />
+                            <label for="express-link"><span></span>Express Link</label>
+                            <input type="checkbox" id="mobile-text" name="Mobile Text Advertising" />
+                            <label for="mobile-text"><span></span>Mobile Text Advertising</label>
+                            <input type="checkbox" id="television-campaigns" name="Television Campaigns" />
+                            <label for="television-campaigns"><span></span>Television Campaigns</label>
+                        </span>
+                      </div>
+                      
+                      <div class="right">
+                        <span class="input-holder">
+                          <label for="product">My Advertising interests include:</label>
+                          <textarea id="txtMessage" name="message"></textarea>
+                        </span>
+                        <div id="btnFormWFp">
+                          <button id="btnSubmit" type="button" class="right"><img src="images/submit.png" alt=""></button>  
+                            <br class="clearBoth">
+                        </div>          
+                      </div>
+                      <br class="clearBoth">
+                  </div><!-- Input wrap -->
+                </form>
+                <div id="thankYouWrap"></div>
+              </div><!-- Contact wrap -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div id="boxes-vid">
+        <div id="dialog-vid" class="window">        
+          <div id="interior-popup-box">
+            <div id="interior-intro-text">
+              <em>Stand Out.</em><i class="white">Watch The Video</i>
+            </div>
+            <a href="#" class="close">Close <span> X</span></a>
+            <div id="modal-box">          
+              <div id="modal-content">
+                <iframe width="640" height="360" src="" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- Do not remove div#mask, because you'll need it to fill the whole screen -->  
+      <div id="mask"></div>
+  </div>
+</div>
+
+<div id="footer">
+  <div class="footer-elements">
+      <p>2013 Cox Media, All rights reserved, Cox Media, LLC | 1001 Summit Blvd. Suite 1200, Atlanta, GA 30319 | 1-855-755-2691</p>
+      <p class="footer-nav"><a href="#coxMedia">CoxMedia.com</a>&nbsp;|&nbsp;<a href="#privacy">Privacy Policy</a>&nbsp;|&nbsp;<a href="#like-us">Like Us</a></p>
+  </div>
+</div>
+<script src="js/jquery_1.8.3.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/content.js"></script>
+<script src="js/contactForm.js"></script>
+  
+</body>
+</html>
