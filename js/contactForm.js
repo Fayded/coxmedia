@@ -117,8 +117,8 @@ function validateAll(){
 		_gaq.push(['_trackPageview', 'contact/thankyou']);
 		
 	    $("#thankYouWrap").append(
-		    '<img src="images/titleThankYou-161x29.png" /><br/><br/>' +
-		    '<p>Thank you for your interest in advertising with Cox Media. A Media Consultant will contact you shortly.</p>'
+		    '<div class="headers"><h2>Thank you for your interest!</h2><h4>A sales representative will contact you<br /> within the next business day.</h4></div>' +
+		    '<div id="contact-boxes"><a href="/"><img src="images/contact_us_home.jpg" /><br />Back to Home Page</a><a href="http://www.coxmedia.com" target="_blank"><img src="images/contact_us_main.jpg" /><br />Visit CoxMedia.com</a><a href="http://www.coxmedia.com/catlisting.jsp?navigation=25" target="_blank"><img src="images/contact_us_success.jpg" /><br />View Success Stories</a></div>'
 	    );
 	}else{
 		console.log("Failed");

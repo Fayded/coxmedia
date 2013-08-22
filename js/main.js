@@ -72,57 +72,39 @@ $(function() {
         var currentDist = $(window).scrollLeft();
         fadeTitle();
         $('body,html').animate({ scrollLeft: $(window).scrollLeft() + 1000 }, 2000);
-        /*if(currentDist >= 0 && currentDist < 2000) {
-            var left = 2000 - $('body').offset().left;
-            $('body,html').animate({ scrollLeft: left }, 3000);
-            return false;
-        }
-        else if(currentDist >= 2000 && currentDist < 4000) {
-            var left = 4000 - $('body').offset().left;
-            $('body,html').animate({ scrollLeft: left }, 3000);
-            return false;
-        }
-        else if(currentDist >= 4000 && currentDist < 6000) {
-            var left = 6000 - $('body').offset().left;
-            $('body,html').animate({ scrollLeft: left }, 3000);
-            return false;
-        }
-        else if(currentDist >= 6000 && currentDist < 8000) {
-            var left = 8000 - $('body').offset().left;
-            $('body,html').animate({ scrollLeft: left }, 3000);
-            return false;
-        }*/
     }
 
     function prevClick() { 
         console.log('prev');
         var currentDist = $(window).scrollLeft();
         fadeTitle();
-        console.log($(window).scrollLeft());
         $('body,html').animate({ scrollLeft: $(window).scrollLeft() - 1000 }, 2000);
-        /*if(currentDist <= 2000) {
-            $('body,html').animate({ scrollLeft: 0 }, 3000);
-            return false;
-        }
-        else if(currentDist > 2000 && currentDist <= 4000) {
-            var left = 2000 - $('body').offset().left;
-            $('body,html').animate({ scrollLeft: left }, 3000);
-            return false;
-        }
-        else if(currentDist > 4000 && currentDist <= 6000) {
-            var left = 4000 - $('body').offset().left;
-            $('body,html').animate({ scrollLeft: left }, 3000);
-            return false;
-        }
-        else if(currentDist > 6000) {
-            var left = 6000 - $('body').offset().left;
-            $('body,html').animate({ scrollLeft: left }, 3000);
-            return false;
-        }*/
     }
     
-    $("#next").on("click", nextClick);
-    $("#previous").on("click", prevClick);
+    //$("#next").on("click", nextClick);
+    //$("#previous").on("click", prevClick);
+
+    $(window).scroll(function () {
+        var myVal = ($(window).scrollLeft() * 0.1263) - 768;
+        $('#scroll-slider').css('background-position', myVal);
+        if($(window).scrollLeft() === 6080) {
+            $('#next').unbind('click');
+            $('#next').addClass('hand');
+        } 
+        else {
+            $('#next').removeClass('hand');
+            $('#next').off('click').on('click', nextClick);
+        }
+        if($(window).scrollLeft() === 0) {
+            $("#previous").unbind('click');
+            $('#previous').addClass('hand');
+        } 
+        else {
+            $('#previous').removeClass('hand');
+            $('#previous').off('click').on('click', prevClick);
+        }
+        //$('#scroll-slider').css('background-position', myVal);    
+    });
 });
 
 $(function() {  
@@ -160,7 +142,7 @@ $(function() {
 })
 
 $(function() { 
-    $('#previousSlide').css('opacity', '0.5');
+    //$('#previousSlide').css('opacity', '0.5');
     
     localStorage.setItem('global-index', 0);
     localStorage.setItem('global-slide', 0);
@@ -169,8 +151,9 @@ $(function() {
     $('.dentist-buttons a').on('click', function() {
         //updateInfo($('.button a').index(this), coxMedia.interiors.dentist, 0);
         $('.footer-nav').css('opacity', 0.3);
-        $('#nextSlide').css('opacity', '1');
-        $('#previousSlide').css('opacity', '0.5');
+        $('#nextSlide').unbind('click').bind('click', nextSlide);
+        $('#previousSlide').addClass('hand');
+        $('#nextSlide').removeClass('hand');
         localStorage.setItem('global-index', $('.button a').index(this));
         localStorage.setItem('global-slide', 0); 
         localStorage.setItem('global-location', JSON.stringify(coxMedia.interiors.dentist));
@@ -179,8 +162,9 @@ $(function() {
     $('.restaurant-buttons a').on('click', function() {
         //updateInfo($('.button a').index(this), coxMedia.interiors.restaurant, 0);
         $('.footer-nav').css('opacity', 0.3);
-        $('#nextSlide').css('opacity', '1');
-        $('#previousSlide').css('opacity', '0.5');
+        $('#nextSlide').unbind('click').bind('click', nextSlide);
+        $('#previousSlide').addClass('hand');
+        $('#nextSlide').removeClass('hand');
         localStorage.setItem('global-index', $('.button a').index(this));
         localStorage.setItem('global-slide', 0); 
         localStorage.setItem('global-location', JSON.stringify(coxMedia.interiors.restaurant));
@@ -189,8 +173,9 @@ $(function() {
     $('.autoDealer-buttons a').on('click', function() {
         //updateInfo($('.button a').index(this), coxMedia.interiors.autoDealer, 0);
         $('.footer-nav').css('opacity', 0.3);
-        $('#nextSlide').css('opacity', '1');
-        $('#previousSlide').css('opacity', '0.5');
+        $('#nextSlide').unbind('click').bind('click', nextSlide);
+        $('#previousSlide').addClass('hand');
+        $('#nextSlide').removeClass('hand');
         localStorage.setItem('global-index', $('.button a').index(this));
         localStorage.setItem('global-slide', 0); 
         localStorage.setItem('global-location', JSON.stringify(coxMedia.interiors.autoDealer));
@@ -199,8 +184,9 @@ $(function() {
     $('.furniture-buttons a').on('click', function(event) {
         //updateInfo($('.button a').index(this), coxMedia.interiors.furniture, 0); 
         $('.footer-nav').css('opacity', 0.3);
-        $('#nextSlide').css('opacity', '1');
-        $('#previousSlide').css('opacity', '0.5');
+        $('#nextSlide').unbind('click').bind('click', nextSlide);
+        $('#previousSlide').addClass('hand');
+        $('#nextSlide').removeClass('hand');
         localStorage.setItem('global-index', $('.button a').index(this));
         localStorage.setItem('global-slide', 0); 
         localStorage.setItem('global-location', JSON.stringify(coxMedia.interiors.furniture));
@@ -223,17 +209,42 @@ $(function() {
     }
 
     $('#nextSlide').bind('click', nextSlide);
-    //$('#previousSlide').bind('click', previousSlide);
 
     function nextSlide() {
+        var newIndex = localStorage.getItem('global-slide');
+        ++newIndex;
+        $('#previousSlide').unbind('click').bind('click', previousSlide);
+        $('#previousSlide').removeClass('hand');
+        if(newIndex > 1) {
+            console.log('here');
+            $('#nextSlide').addClass('hand');
+            $('#nextSlide').unbind('click');
+        }
+        localStorage.setItem('global-slide', newIndex);
+        updateInfo(localStorage.getItem('global-index'), localStorage.getItem('global-location'), newIndex);
+    }
+
+    function previousSlide() {
+        var newIndex = localStorage.getItem('global-slide');
+        --newIndex;
+        $('#nextSlide').unbind('click').bind('click', nextSlide);
+        $('#nextSlide').removeClass('hand');
+        if(newIndex === 0) {
+            console.log('here');
+            $('#previousSlide').addClass('hand');
+            $('#previousSlide').unbind('click');
+        }
+        localStorage.setItem('global-slide', newIndex);
+        updateInfo(localStorage.getItem('global-index'), localStorage.getItem('global-location'), newIndex);
+    }
+
+    /*function nextSlide() {
+        console.log(localStorage.getItem('global-slide'));
         var newIndex = localStorage.getItem('global-slide');
         var newLocal = JSON.parse(localStorage.getItem('global-location'));
         addOne();
         $('#previousSlide').bind('click', previousSlide);
-        $('#previousSlide').css({'opacity':'1', 'cursor':'hand'});
-        $('#previousSlide').css({'opacity':'1', 'cursor':'hand'});
         if(newIndex >= 1) {
-            $('#nextSlide').css({'opacity':'0.5','cursor':'default'});
             $('#nextSlide').unbind('click');
         }
     }
@@ -242,11 +253,9 @@ $(function() {
         var newIndex = localStorage.getItem('global-slide');
         var newLocal = JSON.parse(localStorage.getItem('global-location'));
         $('#nextSlide').bind('click', nextSlide);
-        $('#previousSlide').css({'opacity':'1', 'cursor':'hand'});
         subtractOne();
         if(newIndex <= 1) {
             console.log('here');
-            $('#previousSlide').css({'opacity':'0.5','cursor':'default'});
             $('#previousSlide').unbind('click');
         }
     }
@@ -267,7 +276,7 @@ $(function() {
         --newIndex;
         localStorage.setItem('global-slide', newIndex);
         updateInfo(localStorage.getItem('global-index'), localStorage.getItem('global-location'), newIndex);
-    }   
+    } */  
 });
 
 $(function() { 
@@ -287,6 +296,7 @@ $(function() {
 
     function getValue(clicked) {
         var click = clicked;
+        console.log(clicked);
         var clickRatio = click / 1024;
         var scrollClick = (8000*clickRatio) - 910;
         $('body,html').animate({ scrollLeft: scrollClick }, 3000);
@@ -315,14 +325,7 @@ $(function() {
     });
 
     $('.watch').on('click', function() {
-        $('iframe').attr('src', '//www.youtube.com/embed/lnnfoRAaDFo?hl=en_US&amp;list=PLskZGPLFHskEFELGSbOppwKLGe1sxJrRG');    
-    });
-
-    $(window).scroll(function () {
-        var myVal = ($(window).scrollLeft() * 0.1263) - 768;
-        $('#scroll-slider').css('background-position', myVal);
-        //$('#scroll-slider').css('background-position', myVal);    
+        $('iframe').attr('src', '//www.youtube.com/embed/nIxfyRula7k?list=PLskZGPLFHskE4QwBtagDTFM7oyP-7aszk');    
     });
 });
-
 

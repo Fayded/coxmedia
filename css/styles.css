@@ -1649,7 +1649,7 @@ div#modal-box {
     width: 86%;
     margin: 0 0 0 30px;
     height: 105px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #modal-content h3 {
@@ -1735,10 +1735,6 @@ div#modal-content p {
     left: -10px;
     top: 60px;
     text-indent: -9999em;
-}
-
-#previousSlide:hover, #nextSlide:hover {
-     opacity: 0.8;   
 }
 
 /*/////////////// VIDEO POPUP ///////////////////*/
@@ -1945,8 +1941,8 @@ p.footer-nav {
 
 #scroll-bg {
     background: url(../images/generic.png) no-repeat;
-    background-position: 0 -532px;
-    height: 50px;
+    background-position: 0 -692px;
+    height: 80px;
     width: 1024px;
 }
 
@@ -2405,6 +2401,8 @@ div.pass.errorMsgShow, div.errorMsgShow {
 
 .interior-BG {
     background: black url(../images/bg_interior.jpg) no-repeat;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 
@@ -2428,5 +2426,51 @@ div.pass.errorMsgShow, div.errorMsgShow {
 }
 
 #thankYouWrap {
-    padding: 10px 0;
+    padding: 10px 0 74px 0;
+    overflow: hidden;
+}
+
+#thankYouWrap h2 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#thankYouWrap h4 {
+    font-size: 18px;
+    font-weight: normal;    
+    margin: 0;
+}
+#thankYouWrap .headers {
+    padding: 40px 0 0 90px;
+}
+
+#thankYouWrap a {
+     float: left;   
+     text-align: center;
+     width: 33.3333%;
+     font-size: 12px;
+     color: #0085ac;
+     text-decoration: none;
+     border-left: 1px solid #e5e5e5;
+}
+
+#thankYouWrap a:first-child {
+     border: none;   
+}
+
+#thankYouWrap img {
+     margin: 0 0 20px 0;
+     padding: 0;
+}
+
+#thankYouWrap #contact-boxes {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.hand {
+    cursor: default;
+    opacity: 0.65;
 }

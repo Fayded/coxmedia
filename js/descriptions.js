@@ -5,7 +5,7 @@ var coxMediaDescriptions = {
          "description": "<p>In addition to using :30 TV spots to promote a concert, <span class='noWrap'>Cox Media</span> added online banners to the mix. The results were so successful that nine more banners were added to the schedule for upcoming concerts. <a href='http://www.coxmedia.com/basic.jsp?navigation=25&page=61&listing=yes' target='blank'><span class='noWrap'>Read the Full Story.</span></a>"
    },
 	{
-         "title": "Change&nbsp;Perceptions.",
+         "title": "Showcase&nbsp;Your&nbsp;Business.",
          "description": "Aliquam dolor justo, elementum eget tincidunt ac, tincidunt a erat. Morbi quis ante elit. Mauris tristique orci erat, ac iaculis felis interdum ac. Vestibulum dapibus mollis vehicula. Nam porta et justo eu pellentesque. Maecenas ac feugiat velit, nec pulvinar dui."
    },
 	{
@@ -18,14 +18,14 @@ var coxMediaDescriptions = {
    },
 	{
    		"title": "Attract&nbsp;New&nbsp;Students.",
-   		"description": "<span class='noWrap'>Cox Media</span> helped launch a successful branding campaign through cable and online advertising, which resulted in almost 900% increase in web traffic and 66% awareness of the campaign, 87% of those through cable. <a href='http://www.coxmedia.com/basic.jsp?navigation=25&page=43&listig=yes' target='blank'><span class='noWrap'>Read the Full Story.</span></a>"
+   		"description": "<span class='noWrap'>Cox Media</span> helped launch a successful branding campaign through cable and online advertising, which resulted in almost 900% increase in web traffic and 66% awareness of the campaign, 87% of those through cable. <a href='http://coxmedia.com/basic.jsp?navigation=25&page=638&listing=yes' target='blank'><span class='noWrap'>Read the Full Story.</span></a>"
 	},
 	{
    		"title": "Show&nbsp;Property.",
          "description": "An integrated <span class='noWrap'>Cox Media</span> solution featuring :30 TV spots and a mobile text campaign propelled 100 potential renters to inquire and doubled the goal of units rented. <a href='http://www.coxmedia.com/basic.jsp?navigation=25&page=37&listing=yes' target='blank'><span class='noWrap'>Read the Full Story.</span></a>"
 	},
 	{
-   		"title": "Uncomplicate&nbsp;Services.",
+   		"title": "Create&nbsp;Smiles.",
    		"description": "Aliquam dolor justo, elementum eget tincidunt ac, tincidunt a erat. Morbi quis ante elit. Mauris tristique orci erat, ac iaculis felis interdum ac. Vestibulum dapibus mollis vehicula. Nam porta et justo eu pellentesque. Maecenas ac feugiat velit, nec pulvinar dui. "
 	},
 	{
@@ -45,7 +45,7 @@ var coxMediaDescriptions = {
    		"description": "Aliquam dolor justo, elementum eget tincidunt ac, tincidunt a erat. Morbi quis ante elit. Mauris tristique orci erat, ac iaculis felis interdum ac. Vestibulum dapibus mollis vehicula. Nam porta et justo eu pellentesque. Maecenas ac feugiat velit, nec pulvinar dui. "
 	},
    {
-         "title": "Change&nbsp;Perceptions.",
+         "title": "Showcase&nbsp;Your&nbsp;Business.",
          "description": "Aliquam dolor justo, elementum eget tincidunt ac, tincidunt a erat. Morbi quis ante elit. Mauris tristique orci erat, ac iaculis felis interdum ac. Vestibulum dapibus mollis vehicula. Nam porta et justo eu pellentesque. Maecenas ac feugiat velit, nec pulvinar dui."
    },
    {
