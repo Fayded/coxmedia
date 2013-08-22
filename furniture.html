@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Cox Media Microsite</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <!--<script src="js/modernizr.js"></script>-->
+  <style>
+    #mask {
+      position: absolute;
+      z-index: 4;
+      background: #000;
+      opacity: 0.65;
+      display: none;
+    }
+      
+    #boxes .window {
+      position: fixed;
+      width: 440px;
+      height: 200px;
+      display: none;
+      z-index: 5;
+      padding: 20px;
+    }
+
+    #boxes #dialog {
+      width: 638px; 
+      height: 203px;
+    }
+
+    #boxes-vid .window {
+      position: fixed;
+      width: 640px;
+      height: 360px;
+      display: none;
+      z-index: 7;
+    }
+
+    #boxes-vid #dialog {
+      width: 640px; 
+      height: 360px;
+    }
+    </style>
+</head>
+
+<body class="interior-BG">
+  <div class="int-container furniture">
+    <div id="interior-container">
+    <div id="header">
+      <a href="/" class="logo">Cox Media</a>
+      <div class="social-nav">
+        <a href="https://www.facebook.com/pages/Cox-Media/196099393829215?fref=ts" target="_blank" class="facebook">Facebook</a>
+        <a href="http://www.linkedin.com/company/cox-media" target="_blank" class="linked-in">Linked In</a>
+        <a href="https://twitter.com/cox_media" target="_blank" class="twitter">Twitter</a>
+      </div>
+      <div class="header-nav">
+        <ul>
+          <li><a href="#dialog-vid" name="modal" class="watch">Watch Commercial.</a></li>
+          <li><a href="http://www.coxmedia.com/catlisting.jsp?navigation=25" target="_blank">Read Success Stories.</a></li>
+          <li><a href="contact.html">Contact Us.</a></li>
+        </ul>
+      </div>
+    </div>
+    <a href="/" class="back-button">Back</a>
+    <div class="furniture-buttons">
+      <div class="button">
+        <a href="#dialog" name="modal" class="furniture-1"><span><i class="clearfix pink">Change&nbsp;Perceptions. </i></span><em>Click To See How</em></a>
+      </div>
+      <div class="button">
+        <a href="#dialog" name="modal" class="furniture-2"><span><i class="clearfix pink">Make&nbsp;Your&nbsp;Presence&nbsp;Known</i></span><em>Click To See How</em></a>
+      </div>
+      <div class="button">
+        <a href="#dialog" name="modal" class="furniture-3"><span><i class="clearfix pink">Let&nbsp;Freedom&nbsp;Ring</i></span><em>Click To See How</em></a>
+      </div>
+    </div>
+  </div>
+    <div id="boxes">
+      <div id="dialog" class="window">        
+        <div id="interior-popup-box">
+          <div id="interior-intro-text">
+            <em>Stand Out.</em><i class="pink">Generate More Buzz.</i>
+          </div>
+          <a href="#" class="close">Close <span> X</span></a>
+          <div id="modal-box">          
+            <div id="modal-content">
+              <div class="modal-info">
+                <h3>Solution</h3>
+                <p> Over eight months, the Cox.com campaign resulted in more than 500 click-thrus, at an average monthly rate of 0.12% with most months being above national average. <a href="#">Read Full Story</a></p>
+              </div>
+              <a href="#previous" id="previousSlide">Previous</a>
+              <a href="#next" id="nextSlide">Next</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="boxes-vid">
+        <div id="dialog-vid" class="window">        
+          <div id="interior-popup-box">
+            <div id="interior-intro-text">
+              <em>Stand Out.</em><i class="white">Watch The Video</i>
+            </div>
+            <a href="#" class="close">Close <span> X</span></a>
+            <div id="modal-box">          
+              <div id="modal-content">
+                <iframe width="640" height="360" src="" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- Do not remove div#mask, because you'll need it to fill the whole screen -->  
+      <div id="mask"></div>
+  </div>
+</div>
+
+<div id="footer">
+  <div class="footer-elements">
+      <p>2013 Cox Media, All rights reserved, Cox Media, LLC | 1001 Summit Blvd. Suite 1200, Atlanta, GA 30319 | 1-855-755-2691</p>
+      <p class="footer-nav"><a href="http://www.coxmedia.com" target="_blank">CoxMedia.com</a>&nbsp;|&nbsp;<a href="http://ww2.cox.com/aboutus/policies/your-privacy-rights.cox" target="_blank">Privacy Policy</a>&nbsp;|&nbsp;<a href="https://www.facebook.com/pages/Cox-Media/196099393829215?fref=ts" target="_blank">Like Us</a></p>
+  </div>
+</div>
+<script src="js/jquery_1.8.3.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/content.js"></script>
+  
+</body>
+</html>
