@@ -85,11 +85,12 @@ $(function() {
     //$("#previous").on("click", prevClick);
 
     $(window).scroll(function () {
-        var myVal = ($(window).scrollLeft() * 0.1263) - 768;
+        var myVal = ($(window).scrollLeft() * 0.1263) - 868;
         $('#scroll-slider').css('background-position', myVal);
-        if($(window).scrollLeft() === 6080) {
+        if($(window).scrollLeft() > 6070) {
             $('#next').unbind('click');
             $('#next').addClass('hand');
+            $('#scroll-slider').css('background-position', myVal);
         } 
         else {
             $('#next').removeClass('hand');
@@ -118,11 +119,10 @@ $(function() {
     });
     $(".autoDealer-buttons a").each(function(index) {
         $(this).mouseenter(function(){
-            $(this).children('span').children('i').css('color', '#66DDFF');
-        }).mouseleave(function(){
             $(this).children('span').children('i').css('color', '#0CD0D6');
+        }).mouseleave(function(){
+            $(this).children('span').children('i').css('color', '#66DDFF');
         });
-
     })
     $(".restaurant-buttons a").each(function(index) {
         $(this).mouseenter(function(){

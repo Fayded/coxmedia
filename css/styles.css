@@ -477,11 +477,11 @@ body {
 }
 
 .blue {
-    color: #0CD0D6;
+    color: #66DDFF;
 }
 
 .blue-hover {
-    color: #66DDFF;
+    color: #0CD0D6;
 }
 
 .pink {
@@ -1107,7 +1107,7 @@ div.computer-guy {
 }
 
 div.bike {
-    left: 3277px;
+    left: 3577px;
     top: 349px;
     background-position: 0 -663px;
     width: 331px;
@@ -1664,12 +1664,20 @@ div#modal-content p {
     font-size: 13px;
 }
 
-#modal-content a, #modal-content a:visited {
-    color: #0085ac;
+#modal-box a {
     text-decoration: none;
 }
 
-#modal-content a:hover, #modal-content a:active {
+#modal-box a:hover {
+    text-decoration: underline;
+}
+
+#popup-box a, #popup-box a:visited {
+    color: #08c2ea;
+    text-decoration: none;
+}
+
+#popup-box a:hover, #popup-box a:active {
     text-decoration: underline;
 }
 
@@ -2073,7 +2081,7 @@ p.footer-nav {
     background: url(../images/generic.png) no-repeat;
     display: block;
     position: absolute;
-    left: 28px;
+    left: 80px;
     text-indent: -9999em;
     width: 139px;
     height: 27px;
@@ -2119,13 +2127,13 @@ p.footer-nav {
 .furniture-1 {
     position: absolute;
     top: 106px;
-    left: 588px;
+    left: 484px;
 }
 
 .furniture-2 {
     position: absolute;
     top: 122px;
-    left: 949px;
+    left: 859px;
 }
 
 .furniture-3 {
@@ -2149,13 +2157,13 @@ p.footer-nav {
 .autoDealer-1 {
     position: absolute;
     top: 170px;
-    left: 237px;
+    left: 130px;
 }
 
 .autoDealer-2 {
     position: absolute;
     top: 170px;
-    left: 597px;
+    left: 560px;
 }
 
 .restaurant-1 em {
@@ -2167,20 +2175,29 @@ p.footer-nav {
 }
 
 .autoDealer-2 em {
-    left: 93px;
-    top:43px
+    left: 48px;
+    top: 25px;}
+
+.furniture-1 em {
+    left: 75px;
+    top: 19px;
+}
+
+.furniture-2 em {
+    left: 75px;
+    top: 19px;
 }
 
 .furniture-3 em {
-    left: -93px;
-    top: -115px;}
+    left: 40px;
+    top: 19px;}
 
 i.orange:hover {
     color: #FBBE66;
 }
 
 i.blue:hover {
-    color: #66DDFF;
+    color: #0CD0D6;
 }
 
 i.yellow:hover {
@@ -2206,8 +2223,8 @@ i.green:hover {
     width: 140px;
     text-indent: -9999em;
     position: absolute;
-    top:110px;
-    left: 100px;
+    top: 90px;
+    left: 18px;
 
 }
 
@@ -2405,7 +2422,6 @@ div.pass.errorMsgShow, div.errorMsgShow {
     overflow-y: auto;
 }
 
-
 .maxMind {
     position: absolute;
 }
@@ -2442,6 +2458,7 @@ div.pass.errorMsgShow, div.errorMsgShow {
     font-weight: normal;    
     margin: 0;
 }
+
 #thankYouWrap .headers {
     padding: 40px 0 0 90px;
 }

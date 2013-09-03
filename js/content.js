@@ -4,10 +4,10 @@ var coxMedia = {
    		"autoDealer": {
    			"section": [
    				{
-	   				"title":"Avoid Obstacles.",
+	   				"title":"Generate More Buzz.",
 		   			"slides": [
 		   				{ 
-		   					"title":"Situation",
+		   					"title":"Challenge",
 		   					"description":"An advertising agency was challenged with helping their auto dealer client get the most out of their limited advertising budget. Because they needed to regularly get the word out about special offers and holiday sales, the agency needed to find a way to reach their client's target frequently while staying within these budgetary constraints."
 		   				},
 		   				{ 
@@ -18,9 +18,9 @@ var coxMedia = {
 		   					"title":"Result",
 		   					"description":"The advertising agency was able to go back to their client with <span class='noWrap'>Cox Media</span>'s recommendations. The client loved them and they were soon implemented. In the six months following their cable advertising push, the auto dealer increased monthly sales each month, including breaking new sales records at their biggest holiday sale of the year.<br /><h4>Other Business with similar situation:</h4>",
 		   					"links": [
-		   						"Prejean's - Restaurant <a href='http://www.coxmedia.com/basic.jsp?page=621&navigation=25&listing=yes' target=_blank'>Prejean's - Restaurant</a>",
-		   						"Airport Dental - Healthcare <a href='http://www.coxmedia.com/basic.jsp?page=621&navigation=25&listing=yes' target=_blank'>Prejean's - Restaurant</a>",
-		   						"Hooters of America - Restaurant <a href='http://www.coxmedia.com/basic.jsp?page=621&navigation=25&listing=yes' target=_blank'>Prejean's - Restaurant</a>"
+		   						"<a class='blue' href='http://www.coxmedia.com/basic.jsp?page=621&navigation=25&listing=yes' target=_blank'>Prejean's - Restaurant</a>",
+		   						"<a class='blue' href='http://www.coxmedia.com/basic.jsp?page=624&navigation=25&listing=yes' target=_blank'>Airport Dental - Healthcare</a>",
+		   						"<a class='blue' href='http://www.coxmedia.com/basic.jsp?page=51&navigation=25&listing=yes' target=_blank'>Hooters - Restaurant</a>"
 		   					]
 
 		   				}
@@ -30,7 +30,7 @@ var coxMedia = {
 	   				"title":"Lure Them In.",
 		   			"slides": [
 		   				{ 
-		   					"title":"Situation",
+		   					"title":"Challenge",
 		   					"description":"One of <span class='noWrap'>Cox Media</span>'s customers, a regional automotive group, was opening a new dealership and wanted families in the area to know about it. To reach this audience, Cox created a special family-oriented promotion for the Grand Opening event."
 		   				},
 		   				{ 
@@ -42,9 +42,9 @@ var coxMedia = {
 		   					"title":"Result",
 		   					"description":"Families showed up in droves, making the Grand Opening a huge success. The TV spots and Nickelodeon characters were successful in driving them in. So successful that many families rolled away in brand new automobiles.<br /><h4>Other Business with similar situation:</h4>",
 		   					"links": [
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=623&navigation=25&listing=yes' target='_blank'>Cirque du Soleil - Entertainment</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=620&navigation=25&listing=yes' target='_blank'>Freedom Furniture - Furniture</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=622&navigation=25&listing=yes' target='_blank'>Village Properties - Real Estate</a>"
+		   						"<a class='blue' href='http://www.coxmedia.com/basic.jsp?page=623&navigation=25&listing=yes' target='_blank'>Cirque du Soleil - Entertainment</a>",
+		   						"<a class='blue' href='http://www.coxmedia.com/basic.jsp?page=620&navigation=25&listing=yes' target='_blank'>Freedom Furniture - Furniture</a>",
+		   						"<a class='blue' href='http://www.coxmedia.com/basic.jsp?page=622&navigation=25&listing=yes' target='_blank'>Village Properties - Real Estate</a>"
 		   					]
 		   				}
 		   			]
@@ -54,55 +54,10 @@ var coxMedia = {
 		"dentist": {
    			"section": [
    				{
-	   				"title":"Uncomplicate Services.",
-		   			"slides": [
-		   				{ 
-		   					"title":"Situation",
-		   					"description":"This dental practice already had a reputation as a family-friendly practice. What was missing was greater awareness of the broad range of cosmetic and dental services the practice offered. Because they wanted to promote services that were complex and needed a more detailed explanation, traditional television wasn't going to be the only solution."
-		   				},
-		   				{ 
-		   					"title":"Solution",
-		   					"description":"<span class='noWrap'>Cox Media</span> concluded that adding Express Link, a longer format video solution, would allow the dental practice break up their content into chapters to communicate their wide array of dental services: So a campaign of :30 TV spots along with an Express Link channel, which let viewers pick and choose the segments they wanted to watch and learn more about in greater detail, was created."
-		   				},
-		   				{ 
-		   					"title":"Results",
-		   					"description":"The campaign was so successful, <span class='noWrap'>Cox Media</span> helped the practice create an online strategy by streaming video on Cox.com - to establish a web presence that ties in nicely with the on-air strategy.<br /><h4>Other Business with similar situation:</h4>",
-		   					"links": [
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=248&navigation=25&listing=yes' target='_blank'>Scranton Motors - Auto Dealer</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=43&navigation=25&listing=yes' target='_blank'>Closet Factory - Furniture</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=621&navigation=25&listing=yes' target='_blank'>Prejean's - Restaurant</a>"
-		   					]
-		   				}
-		   			]
-		   		},
-		   		{
-	   				"title":"Embrace Technology.",
-		   			"slides": [
-		   				{ 
-		   					"title":"Situation",
-		   					"description":"Although the dental practice had a loyal client base, they realized that traditional media wasn't the best way to reach their new generation of patients. <span class='noWrap'>Cox Media</span> helped them add some digital solutions to their advertising campaign."
-		   				},
-		   				{ 
-		   					"title":"Solution",
-		   					"description":"<span class='noWrap'>Cox Media</span> created a solution that launched with a TV spot that was strategically scheduled to run on the top cable networks that resonated with a younger demographic. The spot included a way for viewers to reply via text to receive information and offers from the dental practice. <span class='noWrap'>Cox Media</span> also added highly visible banners with this same texting element on Cox.com and the Cox Digital Ad Network to lead users to the practice's website and grow its database of texting subscribers."
-		   				},
-		   				{ 
-		   					"title":"Results",
-		   					"description":"The integrated campaign really resonated with the target. The texting aspect allowed the practice to communicate with their younger demographic in a way they wanted to be communicated with, making them very receptive to health tips, events announcements, promotions, and social media invites. The TV spot proved effective in getting both existing and new patients to text-in to be added to the practice's distribution list and web ads drove hundreds of customers to the practice's site to find out about all the services offered.<br /><h4>Other Business with similar situation:</h4>",
-		   					"links": [
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=638&navigation=25&listing=yes' target='_blank'>Wichita State University - School </a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=55&navigation=25&listing=yes' target='_blank'>Tire Pros - Auto Services </a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=620&navigation=25&listing=yes' target='_blank'>Freedom Furniture - Furniture</a>"
-		   					]
-
-		   				}
-		   			]
-		   		},
-		   		{
 	   				"title":"Create Content.",
 		   			"slides": [
 		   				{ 
-		   					"title":"Situation",
+		   					"title":"Challenge",
 		   					"description":"As the renowned advocate of overall dental health in the region, the practice wanted to create some new content that would reinforce their position as the dental health leader. They turned to <span class='noWrap'>Cox Media</span> for a unique and interesting solution."
 		   				},
 		   				{ 
@@ -114,9 +69,54 @@ var coxMedia = {
 		   					"title":"Results",
 		   					"description":"The videos received so many views, the practice engaged <span class='noWrap'>Cox Media</span> to produce 16 additional videos the next year. These videos helped reinforce the dental practice's reputation as the premier source for dental health.<br /><h4>Other Business with similar situation:</h4>",
 		   					"links": [
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=639&navigation=25&listing=yes' target='_blank'>Woman's Hospital - Healthcare </a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=609&navigation=25&listing=yes' target='_blank'>Louisiana Propane - Energy</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=248&navigation=25&listing=yes' target='_blank'>Scranton Motors - Auto Dealer</a>"
+		   						"<a class='orange' href='http://www.coxmedia.com/basic.jsp?page=639&navigation=25&listing=yes' target='_blank'>Woman's Hospital - Healthcare </a>",
+		   						"<a class='orange' href='http://www.coxmedia.com/basic.jsp?page=609&navigation=25&listing=yes' target='_blank'>Louisiana Propane - Energy</a>",
+		   						"<a class='orange' href='http://www.coxmedia.com/basic.jsp?page=248&navigation=25&listing=yes' target='_blank'>Scranton Motors - Auto Dealer</a>"
+		   					]
+
+		   				}
+		   			]
+		   		},
+   				{
+	   				"title":"Uncomplicate Services.",
+		   			"slides": [
+		   				{ 
+		   					"title":"Challenge",
+		   					"description":"This dental practice already had a reputation as a family-friendly practice. What was missing was greater awareness of the broad range of cosmetic and dental services the practice offered. Because they wanted to promote services that were complex and needed a more detailed explanation, traditional television wasn't going to be the only solution."
+		   				},
+		   				{ 
+		   					"title":"Solution",
+		   					"description":"<span class='noWrap'>Cox Media</span> concluded that adding Express Link, a longer format video solution, would allow the dental practice break up their content into chapters to communicate their wide array of dental services: So a campaign of :30 TV spots along with an Express Link channel, which let viewers pick and choose the segments they wanted to watch and learn more about in greater detail, was created."
+		   				},
+		   				{ 
+		   					"title":"Results",
+		   					"description":"The campaign was so successful, <span class='noWrap'>Cox Media</span> helped the practice create an online strategy by streaming video on Cox.com - to establish a web presence that ties in nicely with the on-air strategy.<br /><h4>Other Business with similar situation:</h4>",
+		   					"links": [
+		   						"<a class='orange' href='http://www.coxmedia.com/basic.jsp?page=248&navigation=25&listing=yes' target='_blank'>Scranton Motors - Auto Dealer</a>",
+		   						"<a class='orange' href='http://www.coxmedia.com/basic.jsp?page=43&navigation=25&listing=yes' target='_blank'>Closet Factory - Furniture</a>",
+		   						"<a class='orange'href='http://www.coxmedia.com/basic.jsp?page=621&navigation=25&listing=yes' target='_blank'>Prejean's - Restaurant</a>"
+		   					]
+		   				}
+		   			]
+		   		},
+		   		{
+	   				"title":"Embrace New Technology.",
+		   			"slides": [
+		   				{ 
+		   					"title":"Challenge",
+		   					"description":"Although the dental practice had a loyal client base, they realized that traditional media wasn't the best way to reach their new generation of patients. <span class='noWrap'>Cox Media</span> helped them add some digital solutions to their advertising campaign."
+		   				},
+		   				{ 
+		   					"title":"Solution",
+		   					"description":"<span class='noWrap'>Cox Media</span> created a solution that launched with a TV spot that was strategically scheduled to run on the top cable networks that resonated with a younger demographic. The spot included a way for viewers to reply via text to receive information and offers from the dental practice. <span class='noWrap'>Cox Media</span> also added highly visible banners with this same texting element on Cox.com and the Cox Digital Ad Network to lead users to the practice's website and grow its database of texting subscribers."
+		   				},
+		   				{ 
+		   					"title":"Results",
+		   					"description":"The integrated campaign really resonated with the target. The texting aspect allowed the practice to communicate with their younger demographic in a way they wanted to be communicated with, making them very receptive to health tips, events announcements, promotions, and social media invites. The TV spot proved effective in getting both existing and new patients to text-in to be added to the practice's distribution list and web ads drove hundreds of customers to the practice's site to find out about all the services offered.<br /><h4>Other Business with similar situation:</h4>",
+		   					"links": [
+		   						"<a class='orange' href='http://www.coxmedia.com/basic.jsp?page=638&navigation=25&listing=yes' target='_blank'>Wichita State University - Education</a>",
+		   						"<a class='orange' href='http://www.coxmedia.com/basic.jsp?page=55&navigation=25&listing=yes' target='_blank'>Tire Pros - Auto Services </a>",
+		   						"<a class='orange' href='http://www.coxmedia.com/basic.jsp?page=620&navigation=25&listing=yes' target='_blank'>Freedom Furniture - Furniture</a>"
 		   					]
 
 		   				}
@@ -130,7 +130,7 @@ var coxMedia = {
 	   				"title":"Change Perceptions.",
 		   			"slides": [
 		   				{ 
-		   					"title":"Situation",
+		   					"title":"Challenge",
 		   					"description":"After being in business for decades, customers came to expect middle-of-the-road and moderately priced furniture from this retailer. So when the chain decided to carry several high-end lines, they knew they needed to make a more affluent audience aware of their new inventory."
 		   				},
 		   				{ 
@@ -141,9 +141,9 @@ var coxMedia = {
 		   					"title":"Results",
 		   					"description":"Within the first two weeks of the new commercial hitting the air, things had gotten really busy. Countless new customers came in to look at the high-end lines of furniture. Not only did they love the furniture, they loved the fact that they could get it delivered on the same day they bought it.<br /><h4>Other Business with similar situation:</h4>",
 		   					"links": [
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=55&navigation=25&listing=yes' target='_blank'>Tire Pros - Auto Services</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=633&navigation=25&listing=yes' target='_blank'>ProHealth Physicians - Healthcare</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=54&navigation=25&listing=yes' target='_blank'>Manchester Family Dental - Healthcare"
+		   						"<a class='pink' href='http://www.coxmedia.com/basic.jsp?page=55&navigation=25&listing=yes' target='_blank'>Tire Pros - Auto Services</a>",
+		   						"<a class='pink' href='http://www.coxmedia.com/basic.jsp?page=633&navigation=25&listing=yes' target='_blank'>ProHealth Physicians - Healthcare</a>",
+		   						"<a class='pink' href='http://www.coxmedia.com/basic.jsp?page=54&navigation=25&listing=yes' target='_blank'>Manchester Family Dental - Healthcare"
 		   					]
 
 		   				}
@@ -153,7 +153,7 @@ var coxMedia = {
 	   				"title":"Establish Presence.",
 		   			"slides": [
 		   				{ 
-		   					"title":"Situation",
+		   					"title":"Challenge",
 		   					"description":"With 5 new stores being opened in surrounding cities within a year, the furniture store needed to generate awareness to the new areas that weren't as familiar with their brand. <span class='noWrap'>Cox Media</span> was ready to help."
 		   				},
 		   				{ 
@@ -162,11 +162,11 @@ var coxMedia = {
 		   				},
 		   				{ 
 		   					"title":"Results",
-		   					"description":"The integrated media solution opened new doors for the furniture store chain. Anchored by a solid cable TV schedule, traffic to the new stores increased greatly in subsequent months. Customers who bought furniture at the new stores were asked to answer the question &ldquo;How did you hear about our new store?&rdquo; The answer was consistently &ldquo;Cable TV&rdquo;.<br /><h4>Other Business with similar situation:</h4>",
+		   					"description":"The integrated media solution opened new doors for the furniture store chain. Anchored by a targeted cable TV schedule, traffic to the new stores increased greatly in subsequent months. Customers who bought furniture at the new stores were asked to answer the question &ldquo;How did you hear about our new store?&rdquo; The answer was consistently &ldquo;Cable TV&rdquo;.<br /><h4>Other Business with similar situation:</h4>",
 		   					"links": [
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=622&navigation=25&listing=yes' target='_blank'>Village Properties - Real Estate</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=51&navigation=25&listing=yes' target='_blank'>Hooters of America - Restaurant</a>", 
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=639&navigation=25&listing=yes' target='_blank'>Woman's Hospital - Healthcare "
+		   						"<a class='pink' href='http://www.coxmedia.com/basic.jsp?page=622&navigation=25&listing=yes' target='_blank'>Village Properties - Real Estate</a>",
+		   						"<a class='pink' href='http://www.coxmedia.com/basic.jsp?page=51&navigation=25&listing=yes' target='_blank'>Hooters - Restaurant</a>", 
+		   						"<a class='pink' href='http://www.coxmedia.com/basic.jsp?page=639&navigation=25&listing=yes' target='_blank'>Woman's Hospital - Healthcare "
 		   					]
 		   				}
 		   			]
@@ -180,15 +180,15 @@ var coxMedia = {
 		   				},
 		   				{ 
 		   					"title":"Solution",
-		   					"description":"<span class='noWrap'>Cox Media</span> started by creating a cable advertising solution that would reach their audience's top 20 networks. Next, Cox leveraged the store's “Freedom Insiders” phone list to text special discounts, contests and promotions to military personnel. And finally, <span class='noWrap'>Cox Media</span> created banner advertisements on their Digital Advertising Network during major deployments to drive customers to its website and to credit applications."
+		   					"description":"<span class='noWrap'>Cox Media</span> started by creating a cable advertising solution that would reach their audience's top 20 networks. Next, Cox leveraged the store's &ldquo;Freedom Insiders&rdquo; phone list to text special discounts, contests and promotions to military personnel. And finally, <span class='noWrap'>Cox Media</span> created banner advertisements on their Digital Advertising Network during major deployments to drive customers to its website and to credit applications."
 		   				},
 		   				{ 
 		   					"title":"Results",
 		   					"description":"The furniture store saw a 25% increase in foot traffic from military personnel over the life of the effort directly related to both the cable television push and text messaging campaign. <span class='noWrap'>Cox Media</span> was able to double the click rate from previous banner efforts, resulting in a 12% increase in credit applications and aiding in a 22% increase in site visits from the previous year.<br /><h4>Other Business with similar situation:</h4>",
 		   					"links": [
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=633&navigation=25&listing=yes' target='_blank'>ProHealth Physicians - Healthcare</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=609&navigation=25&listing=yes' target='_blank'>Louisiana Propane - Energy</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=51&navigation=25&listing=yes' target='_blank'>Hooters of America - Restaurant</a>"
+		   						"<a class='pink' href='http://www.coxmedia.com/basic.jsp?page=633&navigation=25&listing=yes' target='_blank'>ProHealth Physicians - Healthcare</a>",
+		   						"<a class='pink' href='http://www.coxmedia.com/basic.jsp?page=609&navigation=25&listing=yes' target='_blank'>Louisiana Propane - Energy</a>",
+		   						"<a class='pink' href='http://www.coxmedia.com/basic.jsp?page=51&navigation=25&listing=yes' target='_blank'>Hooters - Restaurant</a>"
 		   					]
 
 		   				}
@@ -199,10 +199,33 @@ var coxMedia = {
 		"restaurant": {
    			"section": [
    				{
-	   				"title":"Serve Your Target.",
+	   				"title":"Reach Mobile Diners.",
 		   			"slides": [
 		   				{ 
-		   					"title":"Situation",
+		   					"title":"Challenge",
+		   					"description":"The restaurant was interested in using text-message advertising to distribute their Kids Eat Free promotion, but they needed some help turning their ideas into reality."
+		   				},
+		   				{ 
+		   					"title":"Solution",
+		   					"description":"<span class='noWrap'>Cox Media</span> developed an integrated approach of revising existing :30 TV spots, mobile text messaging and long format video advertising, called Express Link, to seed the program. The revised commercials included new announcements at the bottom of the screen directing viewers to click their remote control to watch the long format video and an invitation to text 'Kids' to receive a Kids Eat Free voucher. The video demonstrated how easy it was to join the restaurant's mobile database and receive their voucher."
+		   				},
+		   				{ 
+		   					"title":"Results",
+		   					"description":"This 4-week campaign greatly exceeded the restaurant's expectations, from both the number of viewers clicking for more information as well as the number of people that acted as a result of the call to action on the longer format video. More than 600 people were added to the restaurant's new mobile database and 25% of them took advantage of the mobile voucher.<br /><h4>Other Business with similar situation:</h4>",
+		   					"links": [
+		   						"<a class='green' href='http://www.coxmedia.com/basic.jsp?page=54&navigation=25&listing=yes' target='_blank'>Manchester Family Dental - Healthcare</a>",
+		   						"<a class='green' href='http://www.coxmedia.com/basic.jsp?page=43&navigation=25&listing=yes' target='_blank'>Closet Factory - Furniture</a>",
+		   						"<a class='green' href='http://www.coxmedia.com/basic.jsp?page=609&navigation=25&listing=yes' target='_blank'>Louisiana Propane - Energy</a>"
+		   					]
+
+		   				}
+		   			]
+		   		},
+   				{
+	   				"title":"Hit Your Target.",
+		   			"slides": [
+		   				{ 
+		   					"title":"Challenge",
 		   					"description":"With several new high-rise office complexes opening in the area, the restaurant needed to find a way to better reach the influx of new tenants. <span class='noWrap'>Cox Media</span> worked with the owner to find a solution that would reach the new business target while still keeping their established clientele intact."
 		   				},
 		   				{ 
@@ -211,34 +234,11 @@ var coxMedia = {
 		   				},
 		   				{ 
 		   					"title":"Results",
-		   					"description":": Over a period of eight months after the launch of the new business targeted TV effort, the restaurant experienced a 75% increase in walk-in business guests. In addition, the Cox.com banner campaign resulted in more than 500 click-thrus, at an average monthly rate of 0.12%, with most months being above the national average. Feedback from customers confirmed that the majority of the business crowd had become interested in the restaurant after seeing the cable commercials or a new web banner. Many also acknowledged clicking ads to view the restaurant's website from Cox.com.<br /><h4>Other Business with similar situation:</h4>",
+		   					"description":"Over a period of eight months after the launch of the new business targeted TV effort, the restaurant experienced a 75% increase in walk-in business guests. In addition, the Cox.com banner campaign resulted in more than 500 click-thrus, at an average monthly rate of 0.12%, with most months being above the national average. Feedback from customers confirmed that the majority of the business crowd had become interested in the restaurant after seeing the cable commercials or a new web banner. Many also acknowledged clicking ads to view the restaurant's website from Cox.com.<br /><h4>Other Business with similar situation:</h4>",
 		   					"links": [
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=623&navigation=25&listing=yes' target='_blank'>Cirque du Soleil - Entertainment</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=620&navigation=25&listing=yes' target='_blank'>Freedom Furniture - Furniture</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=624&navigation=25&listing=yes' target='_blank'>Airport Dental - Healthcare</a>"
-		   					]
-
-		   				}
-		   			]
-		   		},
-		   		{
-	   				"title":"Get Mobile. ",
-		   			"slides": [
-		   				{ 
-		   					"title":"Situation",
-		   					"description":"The restaurant was interested in using text-message advertising to distribute their Kids Eat Free promotion, but they needed some help turning their ideas into reality."
-		   				},
-		   				{ 
-		   					"title":"Solution",
-		   					"description":"<span class='noWrap'>Cox Media</span> developed an integrated approach of revising existing :30 TV spots, mobile text messaging and long format video advertising, called Express Link, to seed the program. The revised commercials included new announcements at the bottom of the screen directing viewers to click their remote control to watch the long format video and an invitation to text 'Kids' to receive a Kids Eat Free voucher. The video demonstrated how to easy it was to join the restaurant's mobile database and receive their voucher."
-		   				},
-		   				{ 
-		   					"title":"Results",
-		   					"description":"This 4-week campaign greatly exceeded the restaurant's expectations, from both the number of viewers clicking for more information as well as the number of people that acted as a result of the call to action on the longer format video. More than 600 people were added to the restaurant's new mobile database and 25% of them took advantage of the mobile voucher.<br /><h4>Other Business with similar situation:</h4>",
-		   					"links": [
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=54&navigation=25&listing=yes' target='_blank'>Manchester Family Dental - Healthcare</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=43&navigation=25&listing=yes' target='_blank'>Closet Factory - Furniture</a>",
-		   						"<a href='http://www.coxmedia.com/basic.jsp?page=609&navigation=25&listing=yes' target='_blank'>Louisiana Propane - Energy</a>"
+		   						"<a class='green' href='http://www.coxmedia.com/basic.jsp?page=623&navigation=25&listing=yes' target='_blank'>Cirque du Soleil - Entertainment</a>",
+		   						"<a class='green' href='http://www.coxmedia.com/basic.jsp?page=620&navigation=25&listing=yes' target='_blank'>Freedom Furniture - Furniture</a>",
+		   						"<a class='green' href='http://www.coxmedia.com/basic.jsp?page=624&navigation=25&listing=yes' target='_blank'>Airport Dental - Healthcare</a>"
 		   					]
 
 		   				}
@@ -252,11 +252,6 @@ var coxMedia = {
    		"GA": {
    			"city": [{
    				"name": "Macon",
-   				"population": "91,351",
-   				"climate": "Temperate"
-	   		},
-	   		{
-   				"name": "Atlanta",
    				"population": "91,351",
    				"climate": "Temperate"
 	   		}]
